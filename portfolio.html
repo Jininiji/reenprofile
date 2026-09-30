@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="REEN의 포트폴리오" />
+    <title>REEN — Selected Works</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Noto+Serif+KR:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="scene scene-portfolio is-active" aria-label="REEN" data-page="reen">
+        <header class="topbar">
+          <a class="brand" href="index.html" aria-label="시작 페이지로 이동">REEN<span>.</span></a>
+          <nav aria-label="포트폴리오 분류">
+            <a class="nav-item is-selected" href="portfolio.html">REEN</a>
+            <a class="nav-item" href="rain.html">RAIN</a>
+            <a class="nav-item" href="live.html">LIVE</a>
+            <a class="nav-item" href="actor.html">ACTOR</a>
+          </nav>
+        </header>
+
+        <section class="profile-board profile-board--reen" aria-label="프로필 문구">
+          <p class="board-label">01 — INTRODUCTION</p>
+          <div class="profile-sections">
+            <div class="profile-section"><p data-content="identity">Reen | 레인<br />오시마크 🌂🎐</p></div>
+            <div class="profile-section"><p data-content="mood">마음을 촉촉하게🌫</p></div>
+            <div class="profile-section"><p data-content="genre">방송 장르<br />-노래<br />-잔잔토크</p></div>
+            <div class="profile-section"><p>릴스타<br /><a data-content="reel_url" href="https://www.instagram.com/realityreen84?stkn=cTU0emxmbGoya3Vj" target="_blank" rel="noreferrer">https://www.instagram.com/realityreen84?stkn=cTU0emxmbGoya3Vj</a></p></div>
+          </div>
+        </section>
+        <footer class="site-footer"><div><p>@ REEN</p><button class="admin-trigger" type="button">[Admin]</button></div></footer>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
